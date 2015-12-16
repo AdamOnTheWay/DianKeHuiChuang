@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #DADADA;
+}
+.foot{
+    height: 150px;
+    width: 100%;
+    background-color: #3AB8BB;
+    position: fixed;
+    bottom: 0;
+}
+.imgContainer{
+    float: left;
+    width: 33.33%;
+    align-items: center;
+    text-align: center;
+}
+.imgContainer img{
+    height: 150px;
+}
+.clear{
+    clear: both;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: #3AB8BB;
+    text-align: center;
+    line-height: 100px;
+}
+.touch{
+    font-size: 40px;
+    color: white;
+}
+.unTouch{
+    text-decoration: none;
+    color: #166f77;
+    font-size: 40px;
+}
+.bodyContainer{
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.everyOrder{
+    margin-bottom: 10px;
+    background-color: white;
+}
+.firstLine{
+    border-bottom: 2px solid #DADADA;
+    vertical-align: middle;
+    line-height: 82px;
+    font-size: 25px;
+}
+.firstLine img{
+    margin: 10px 20px;
+    float: left;
+}
+.secondLine{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: black;
+}
+.state{
+    float: right;
+    margin-right: 20px;
+}

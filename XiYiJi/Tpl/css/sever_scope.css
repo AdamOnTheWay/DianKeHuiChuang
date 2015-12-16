@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(238,238,238);
+    font-weight: bold;
+}
+.heade{
+    position: absolute;
+    background-color: #3AB8BB;
+    top: 0;
+    width: 100%;
+    height: 80px
+}
+h1{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.main{
+    position: absolute;
+    top:90px;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+}
+
+#allmap{
+    position: absolute;
+    background-color: #DADADA;
+    top: 150px;
+    width: 100%;
+    height:70%;
+}
+.foot{
+    position: absolute;
+    top: 95%;
+    right: 0;
+    color: rgb(22,177,239);
+}

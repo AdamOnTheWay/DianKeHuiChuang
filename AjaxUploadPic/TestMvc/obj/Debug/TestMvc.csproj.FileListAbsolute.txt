@@ -1,0 +1,17 @@
+F:\work\SyncTool\TestMvc\TestMvc\TestMvc\obj\Debug\ResolveAssemblyReference.cache
+F:\work\SyncTool\TestMvc\TestMvc\TestMvc\bin\TestMvc.dll
+F:\work\SyncTool\TestMvc\TestMvc\TestMvc\bin\TestMvc.pdb
+F:\work\SyncTool\TestMvc\TestMvc\TestMvc\bin\AuthoritySyncTool.exe
+F:\work\SyncTool\TestMvc\TestMvc\TestMvc\bin\AuthoritySyncTool.pdb
+F:\work\SyncTool\TestMvc\TestMvc\TestMvc\obj\Debug\TestMvc.dll
+F:\work\SyncTool\TestMvc\TestMvc\TestMvc\obj\Debug\TestMvc.pdb
+F:\DEV PRO\Test\TestMvc\TestMvc\TestMvc\obj\Debug\ResolveAssemblyReference.cache
+F:\DEV PRO\Test\TestMvc\TestMvc\TestMvc\obj\Debug\TestMvc.dll
+F:\DEV PRO\Test\TestMvc\TestMvc\TestMvc\obj\Debug\TestMvc.pdb
+F:\DEV PRO\Test\TestMvc\TestMvc\TestMvc\bin\TestMvc.dll
+F:\DEV PRO\Test\TestMvc\TestMvc\TestMvc\bin\TestMvc.pdb
+D:\Users\RyanDing\Desktop\AjaxUploadPic\TestMvc\bin\TestMvc.dll
+D:\Users\RyanDing\Desktop\AjaxUploadPic\TestMvc\bin\TestMvc.pdb
+D:\Users\RyanDing\Desktop\AjaxUploadPic\TestMvc\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\RyanDing\Desktop\AjaxUploadPic\TestMvc\obj\Debug\TestMvc.dll
+D:\Users\RyanDing\Desktop\AjaxUploadPic\TestMvc\obj\Debug\TestMvc.pdb

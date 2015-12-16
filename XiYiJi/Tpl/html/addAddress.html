@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi" />
+    <meta name="viewport" content="target-densitydpi=high-dpi" />
+    <meta name="viewport" content="target-densitydpi=medium-dpi" />
+    <meta name="viewport" content="target-densitydpi=low-dpi" />
+    <meta name="viewport" content="target-densitydpi=200" />
+    <title>添加地址</title>
+    <link href="../css/addAddress.css" rel="stylesheet" type="text/css">
+    <script src="../js/addAddress.js"></script>
+</head>
+<body>
+<div class="title">
+    添加地址
+</div>
+<form class="enterAddress" action="" method="post">
+        <label> <input type="text" placeholder="您的姓名" class="everyLine" required></label>
+        <div class="everyLine">
+            <label> <input type="radio" name="sex" value="0"><span style="font-size: 40px">先生</span></label>
+            <label> <input type="radio" name="sex" value="1"><span style="font-size: 40px">女士</span></label>
+        </div>
+        <label> <input class="everyLine" placeholder="联系电话" required name="" value="" id="telphone"></label>
+        <!--<label> <input class="everyLine" placeholder="城市" id="city" required value="成都"></label>-->
+        <label> <input class="everyLine" placeholder="区域" id="zone" required></label>
+        <label> <input class="everyLine" placeholder="请输入小区或大厦名" id="community" required></label>
+        <label> <input class="everyLine" placeholder="请输入门牌号等详细地址" id="doorNumber" required></label>
+        <button class="button" type="submit" onclick="checkPhone()" id="saveBtn">保 存</button>
+</form>
+</body>
+</html>

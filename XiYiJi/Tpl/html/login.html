@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Test WeChat</title>
+		<script type="text/javascript">
+			function loadXMLDoc()
+				{
+			var xmlhttp;
+			if (window.XMLHttpRequest)
+			  {// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp=new XMLHttpRequest();
+			  }
+				else
+ 			 {// code for IE6, IE5
+  			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			  }
+
+			xmlhttp.open("GET","https://api.weixin.qq.com/cgi-bin/user/info?access_token=ACCESS_TOKEN&openid=OPENID&lang=zh_CN",true);
+			xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+			xmlhttp.send();
+
+			xmlhttp.onreadystatechange=function()
+  				{
+  			if (xmlhttp.readyState==4 && xmlhttp.status==200)
+ 			   {
+
+ 			alert("xmlhttp.responseText");
+
+ 			var txt=xmlhttp.responseText;
+
+			var obj = eval("(" + txt + ")");
+
+			document.getElementById("nickname").innerHTML=obj.nickname; 
+			document.getElementById("city").innerHTML=obj.city;
+			document.getElementById("sex").innerHTML = obj.sex;
+			document.getElementById("province").innerHTML = obj.province;
+			document.getElementById("country").innerHTML = obj.country;
+
+ 			   }
+ 			if(txt!="error") 
+ 				window.location.reload();
+			else alert("failed!");
+			}
+		 }
+
+		</script>
+	</head>
+	<body>
+		<div>
+		<p>nickname:<span id="nickname"></span></p>
+		<p>city:<span id="city"></span></p>
+		<p>sex:<span id="sex"></span></p>
+		<p>province:<span id="province"></span></p>
+		<p>country:<span id="country"></span></p>
+		<button id="butn" onclick="loadXMLDoc()">确定</button>
+		</div>
+	</body>
+</html>	

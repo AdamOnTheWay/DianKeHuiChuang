@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="target-densitydpi=device-dpi" />
+    <meta name="viewport" content="target-densitydpi=high-dpi" />
+    <meta name="viewport" content="target-densitydpi=medium-dpi" />
+    <meta name="viewport" content="target-densitydpi=low-dpi" />
+    <meta name="viewport" content="target-densitydpi=200" />
+    <link rel="stylesheet" type="text/css" href="../css/clothes_details.css">
+    <script type="text/javascript" src="../js/clothes_details.js"></script>
+    <title>衣物详情</title>
+</head>
+<body>
+    <div class="heade">
+        <h1>衣物详情</h1>
+    </div>
+    <div class="main">
+        <form action="#">
+            <table style="margin-top: 40px">
+                <tr class="one">
+                    <td><label for="piece">请选择件数</label></td>
+                    <td>
+                        <input id="piece" name="piece" type="number"  min="0"   onkeydown="change()" onkeypress="change()" onkeyup="change()" >
+                        <span>件</span>
+                    </td>
+                </tr>
+                <tr class="two">
+                    <td><p>详情说明：</p></td>
+                    <td></td>
+                </tr>
+                <tr class="checkbox thrre">
+                    <td class="l three" >是否有污渍</td>
+                    <td class="r three">
+                        <input  class="check"  name="besmirch" type="checkbox" value="" />
+                    </td>
+                </tr>
+                <tr class="checkbox four">
+                    <td class="l">是否有破损</td>
+                    <td class="r">
+                        <input class="check" name="broken" type="checkbox" value="" />
+                    </td>
+                </tr>
+                <tr class="checkbox five">
+                    <td class="l">其他备注</td>
+                    <td class="r">
+                        <a name="more" href="clothes_more.html"><img id="img" onclick="changetwo()" src="../imgs/clothes/beforemore.png"></a>
+                    </td>
+                </tr>
+                <tr class="six">
+                    <input type="button"  id ="clothes_details" name="clothes_details"  onclick="check()" value="确定提交">
+                </tr>
+            </table>
+        </form>
+
+    </div>
+
+</body>
+</html>

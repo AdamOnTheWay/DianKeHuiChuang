@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="target-densitydpi=device-dpi" />
+    <meta name="viewport" content="target-densitydpi=high-dpi" />
+    <meta name="viewport" content="target-densitydpi=medium-dpi" />
+    <meta name="viewport" content="target-densitydpi=low-dpi" />
+    <meta name="viewport" content="target-densitydpi=200" />
+    <link rel="stylesheet" type="text/css" href="../css/dataRevise.css">
+    <script type="application/javascript" src="../js/dataRevise.js"></script>
+    <title>编辑资料</title>
+</head>
+<body>
+   <div class="heade">
+       <h1>编辑资料</h1>
+   </div>
+
+   <div class="main">
+       <form action="">
+           <table>
+               <tr>
+                   <td class="l"><label for="nickname">昵称</label></td>
+                   <td class="r "><input id="nickname" name="nickname" type="text" placeholder="Bnanananna" onkeydown="c()" onkeypress="c()" onkeyup="c()" ></td>
+               </tr>
+               <tr>
+                   <td class="l"><label for="name">姓名</label></td>
+                   <td class="r "><input id="name" name="name" type="text" placeholder="Alice" onkeydown="c()" onkeypress="c()" onkeyup="c()" ></td>
+               </tr>
+               <tr>
+                   <td class="l">性别</td>
+                   <td class="r ">
+                       <select name="six" onclick="d()" >
+                           <option value="boy">男</option>
+                           <option value="girl">女</option>
+                       </select>
+               </tr>
+               <tr>
+                   <td class="l"><label for="age">年龄</label></td>
+                   <td class="r "><input  id="age" name="age" type="number" placeholder="15" min="0"  max="200" onkeydown="c()" onkeypress="c()" onkeyup="c()" ></td>
+               </tr>
+               <tr>
+                   <td class="l"><label for="email">邮箱</label></td>
+                   <td class="r "><input id="email" name="email" type="email" placeholder="1234567890@qq163.com" onkeydown="c()" onkeypress="c()" onkeyup="c()" ></td>
+               </tr>
+               <tr>
+                   <td class="l"><label for="phone">电话</label></td>
+                   <td class="r "><input id="phone" name="phone" type="text" placeholder="1234567890" onkeydown="c()" onkeypress="c()" onkeyup="c()" ></td>
+               </tr>
+               <tr>
+                   <td class="l"><label for="address">地址</label></td>
+                   <td class="r "><input id="address" name="address" type="text" placeholder="四川省成都市电子科技大学" onkeydown="c()" onkeypress="c()" onkeyup="c()" ></td>
+               </tr>
+           </table>
+           <input type="button"  id="change" name="submit" value="完成" onclick="window.location.href=('data.html') ">
+       </form>
+   </div>
+</body>
+</html>

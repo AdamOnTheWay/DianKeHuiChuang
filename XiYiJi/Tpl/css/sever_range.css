@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #3AB8BB;
+    color: white;
+}
+.textBox{
+    padding: 20px;
+    font-size: 40px;
+    color: #000000;
+}
+img{
+    width: 100%;
+}
+p{
+    float: right;
+    margin-right: 40px;
+    font-size: 40px;
+}
+p a{
+    color: #27B2EC;
+}
+a:visited{
+    color: #27B2EC;
+}

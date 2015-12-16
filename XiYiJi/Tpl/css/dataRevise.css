@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 100px;
+    background-color: rgb(238,238,238);
+    font-size: 62.5%;
+}
+.heade{
+    position: absolute;
+    background-color: #3AB8BB;
+    text-align: center;
+    width: 100%;
+    height: 8%;
+}
+h1{
+    position: absolute;
+    top: 0;
+    height: 8%;
+    font-size: 2.5em;
+    color: white;
+    text-align:center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.main{
+    position: absolute;
+    top: 11%;
+    height: 80%;
+    width: 100%;
+}
+form{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+table{
+    position: absolute;
+    width: 100%;
+    height:90%;
+    font-size: 2em;
+    border-spacing: 0;
+}
+tr{
+    border: 1px solid black;
+    background-color: white;
+}
+td{
+    border-bottom: 0.1em solid rgb(238,238,238);
+}
+.l{
+    width: 20%;
+    text-align: center;
+}
+.r{
+    font-size: 1em;
+    width: 80%;
+    text-align: left;
+}
+label{
+    width: 20%;
+    text-align: center;
+}
+input{
+    border: none;
+    width: 80%;
+    color: #080808;
+}
+
+#change{
+    position: absolute;
+    width: 60%;
+    height: 10%;
+    top: 90%;
+    left: 20%;
+    border-radius: 5px;
+    font-size: 2em;
+    background-color: rgb(191,191,191);
+}

@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 100px;
+    background-color: #D5D5D5;
+    font-weight: bold;
+    font-size: 62.5%;
+}
+.heade{
+    position: absolute;
+    background-color: #3AB8BB;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 15em;
+
+}
+h1{
+    font-size: 6em;
+    color: white;
+}
+span{
+    color: rgb(255,98,7);
+}
+.number{
+
+    font-size:15em;
+}
+.yuan{
+    font-size: 5em;
+}
+.main{
+    position: absolute;
+    top:18em;
+    left: 1%;
+    background-color: white;
+    width: 98%;
+    height: 50em;
+    border-radius:25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+}
+.l{
+    position: absolute;
+    left: 2%;
+    font-size: 5em;
+}
+.ll{
+    position: absolute;
+    left: 5%;
+    top:10em;
+}
+#bill {
+    position: absolute;
+    right: 2%;
+    height: 5em;
+}
+#hr{
+    position: absolute;
+    top: 30em;
+    margin:0;
+    height:2px;
+    width: 98%;
+    border:0;
+    background-color:#9d9d9d;
+    color:#D5D5D5;
+    bottom: 25%;
+}
+p{
+    color: #9d9d9d;
+    font-weight: bold;
+}
+
+#text{
+    position: absolute;
+    top: 8em;
+    bottom: 0;
+    font-size: 4em;
+    left: 2%;
+}
+.input{
+    text-align: center;
+    position: absolute;
+    top: 80em;
+    width: 100%;
+    height: 13em;
+    background-color: white;
+}
+
+label{
+    position: absolute;
+    font-size: 2em;
+    top: 0.8em;
+    width: 30%;
+    height: 3em;
+    left: 0%;
+}
+
+#money{
+    position: absolute;
+    top:0.5em;
+    left: 25%;
+    width:70%;
+    height: 2.5em;
+    color: #9d9d9d;
+    font-size: 1.5em;
+    text-align: center;
+}
+td{
+   font-size: 25px;
+}
+#submit{
+    position: absolute;
+    top: 44em;
+    height: 6%;
+    left : 5%;
+    width: 90%;
+    font-size: 25px;
+    background-color: rgb(191,191,191);
+}
+#cue{
+    text-align: center;
+    vertical-align:100%;
+    font-size:4em;
+    position: relative;
+    top: 18em;
+    width: 60%;
+    height: 3em;
+    left:25%;
+    background-color:#D5D5D5;
+    color: #D5D5D5;
+    border-radius: 5em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi" />
+    <meta name="viewport" content="target-densitydpi=high-dpi" />
+    <meta name="viewport" content="target-densitydpi=medium-dpi" />
+    <meta name="viewport" content="target-densitydpi=low-dpi" />
+    <meta name="viewport" content="target-densitydpi=200" />
+    <title>注册</title>
+    <link href="../css/register.css" rel="stylesheet" type="text/css">
+    <script src="../js/register.js"></script>
+</head>
+<body>
+    <div class="title">注册</div>
+    <div class="bodyContainer">
+        <div class="welcome">欢迎您注册洗衣基会员</div>
+        <form class="form">
+            <label><input type="text" placeholder="请输入您的手机号码" id="phone"></label>
+            <label><input type="number" placeholder="请输入验证码" id="verify"></label><label><input type="button" value="获取验证码" id="getnumber" onclick="settime(this)" ></label>
+            <button id="confirm" type="submit" onclick="isConfirmed()">确认注册</button>
+        </form>
+    </div>
+</body>
+</html>

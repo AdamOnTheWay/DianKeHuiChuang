@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 100px;
+    background-color: rgb(238,238,238);
+    font-size: 62.5%;
+}
+.heade{
+    position: absolute;
+    background-color: #3AB8BB;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 8%;
+}
+h1{
+    position: absolute;
+    font-size: 2.5em;
+    color: white;
+    text-align:center;
+    width: 100%;
+    font-weight: bold;
+}
+.main{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 50%;
+}
+table{
+    position: absolute;
+    width: 94%;
+    top:0;
+    left: 3%;
+}
+td{
+    height: 20%;
+}
+.QA{
+    position: absolute;
+    width: 18%;
+    height: 9%;
+    border-radius: 5px;
+    background-color: rgb(64,184,188);
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+h2{
+    color: rgb(182,182,182);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.l{
+
+    width: 20%;
+    text-align: center;
+}
+.r{
+    text-align: left;
+    width: 80% ;
+    color: rgb(134,134,134);
+    font-size: 1.5em;
+}
+#one{
+    position: absolute;
+    top: 4%;
+}
+#two{
+    position: absolute;
+    top: 38%;
+}
+#three{
+    position: absolute;
+    top: 70%;
+}
+.foot{
+    position: absolute;
+    top: 83%;
+    width: 100%;
+    text-align: center;
+    height: 10%;
+    font-size: 1.5em;
+    color: rgb(148,148,148);
+}
+span{
+    color:rgb(64,184,188) ;
+}

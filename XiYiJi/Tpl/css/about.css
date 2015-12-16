@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(238,238,238);
+}
+.heade{
+    position: absolute;
+    background-color: #3AB8BB;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+}
+h1{
+    position: absolute;
+    /*font-size: 60px;*/
+    color: white;
+    text-align:center;
+    width: 100%;
+    font-weight: bold;
+}
+.main{
+    position: absolute;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    color:rgb(144,144,144) ;
+    /*font-size: 50px;*/
+}
+/*h2{
+    font-size: 50px;
+}/*
+p{
+    position: absolute;
+    left: 10%;
+    text-align: left;
+    font-size: 50px;
+    color:rgb(144,144,144) ;
+}
+img{
+    height:10em;
+    width: 15em;
+
+}*/
+pre{
+    color:rgb(61,186,190);
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold;
+}
